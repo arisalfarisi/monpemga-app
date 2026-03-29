@@ -1,0 +1,47 @@
+{
+  "name": "MONPEMGA — UP3 Banten Utara",
+  "short_name": "MONPEMGA",
+  "description": "Monitoring Pemeliharaan Gardu Distribusi UP3 Banten Utara PLN",
+  "start_url": "/monpemga-app/",
+  "scope": "/monpemga-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a3a5c",
+  "theme_color": "#1a3a5c",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Input Pembumian",
+      "url": "/monpemga-app/",
+      "description": "Input pengukuran pembumian"
+    },
+    {
+      "name": "Gangguan Gardu",
+      "url": "/monpemga-app/",
+      "description": "Historical gangguan gardu"
+    },
+    {
+      "name": "Aset Gardu",
+      "url": "/monpemga-app/",
+      "description": "Daftar aset gardu distribusi"
+    }
+  ]
+}
